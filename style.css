@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: "Outfit";sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    
+}
+
+.cartao {
+    display:flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 450px;
+    height: 650px;
+    border-radius: 5%;
+    
+}
+
+.foto img {
+    display: flex;
+    margin: 20px;
+    width: 90%;
+    border-radius: 5%;
+}
+
+.titulo {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px ;
+    width: 320px;
+    padding: 15px;
+    
+}
+
+.instrucao {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    width: 300px;
+}
+
